@@ -137,6 +137,3 @@ server.listen(port, host, () => {
 });
 
 server.on("error", (error) => {
-  console.error(`Unable to start server: ${error.message}`);
-  process.exitCode = 1;
-});
